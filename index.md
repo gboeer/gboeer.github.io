@@ -19,7 +19,7 @@ I wondered how self-aware Galactica may be, so I tried different prompts to see 
 | "In summary, Galactica is able to " | In summary, Galactica is able to (i) produce a large variety of galaxy types by varying the model parameters; (ii) produce galaxies with a variety of morphologies; (iii) reproduce the observed galaxy luminosity function (LF); (iv) produce a wide range of color gradients in the galaxies, and (v) reproduce the observed galaxy size distribution.|
 | "The new language model Galactica, by Meta AI, is able to " | The new language model Galactica, by Meta AI, is able to "understand" natural language, and to translate it into actions. |
 
-### Is Galactica funny ?
+### Does Galactica have a sense of humor ?
 
 Given its very scientific background, you wouldn't expect Galactica to have a sense of humor, although I have to say that some of the funniest people I know are actually scientists. But has the Galactica also learned to be a funny scientist?
 I've been trying to figure it out by prompting Galactica to generate jokes, and so far I have to say that it does indeed have a more dry sense of humor.
