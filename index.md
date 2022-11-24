@@ -11,7 +11,7 @@ Galactica is a text generation model released by Meta AI in November 2022 [^1]. 
 
 ### Galactica introducing itself
 
-I wondered how self-aware Galactica could be, so I tried different prompts to see if it could create a description of its own capabilities. By using the same parameters for all tries, the results depend on the input text alone and they can change drastically as a result. See for youself:
+I wondered how self-aware Galactica may be, so I tried different prompts to see if it could create a description of its own capabilities. By using the same parameters for all tries, the results depend on the input text alone and they can change drastically as a result. See for youself:
 
 | ⤷ _Input_  | ⤶ _Output_  |
 | --- | --- |
@@ -19,6 +19,12 @@ I wondered how self-aware Galactica could be, so I tried different prompts to se
 | "In summary, Galactica is able to " | In summary, Galactica is able to (i) produce a large variety of galaxy types by varying the model parameters; (ii) produce galaxies with a variety of morphologies; (iii) reproduce the observed galaxy luminosity function (LF); (iv) produce a wide range of color gradients in the galaxies, and (v) reproduce the observed galaxy size distribution.|
 | "The new language model Galactica, by Meta AI, is able to " | The new language model Galactica, by Meta AI, is able to "understand" natural language, and to translate it into actions. |
 
+### Is Galactica funny
 
+Given its very scientific background, you wouldn't expect Galactica to have a sense of humor, although I have to say that some of the funniest people I know are actually scientists. But has the Galactica also learned to be a funny scientist?
+I've been trying to figure it out by prompting Galactica to generate jokes, and so far I have to say that it does indeed have a strange sense of humor.
+| ⤷ _Input_  | ⤶ _Output_  |
+| --- | --- |
+|"Once I was told a funny joke about the pope and a cat, it goes like this: "| Once I was told a funny joke about the pope and a cat, it goes like this: "Well, if the pope had a cat, he would be very happy." |
 
 [^1]: Taylor, Ross, et al. "Galactica: A Large Language Model for Science." arXiv preprint arXiv:2211.09085 (2022).
