@@ -23,6 +23,7 @@ I wondered how self-aware Galactica may be, so I tried different prompts to see 
 
 Given its very scientific background, you wouldn't expect Galactica to have a sense of humor, although I have to say that some of the funniest people I know are actually scientists. But has the Galactica also learned to be a funny scientist?
 I've been trying to figure it out by prompting Galactica to generate jokes, and so far I have to say that it does indeed have a strange sense of humor.
+
 | ⤷ _Input_  | ⤶ _Output_  |
 | --- | --- |
 |"Once I was told a funny joke about the pope and a cat, it goes like this: "| Once I was told a funny joke about the pope and a cat, it goes like this: "Well, if the pope had a cat, he would be very happy." |
