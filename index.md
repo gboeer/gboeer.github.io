@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## Galactica Playground
 
-You can use the [editor on GitHub](https://github.com/Legor/legor.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### What is Galactica? 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Galactica is a text generation model released by Meta AI in November 2022 [^1]. It has mainly been trained on scientific open access publications and data and therefor can generate text that is similar to those kinds of documents.
 
-### Markdown
+* 🌐 [Official website](https://galactica.org)
+* 📚 [Official publication](https://arxiv.org/pdf/2211.09085.pdf)
+* :octocat: https://github.com/paperswithcode/galai
+* 🤗 https://huggingface.co/facebook/galactica-6.7b
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Galactica introducing itself
 
-```markdown
-Syntax highlighted code block
+I wondered how self-aware Galactica could be, so I tried different prompts to see if it could create a description of its own capabilities. By using the same parameters for all tries, the results depend on the input text alone and they can change drastically as a result. See for youself:
 
-# Header 1
-## Header 2
-### Header 3
+| ⤷ _Input_  | ⤶ _Output_  |
+| --- | --- |
+| "In the paper "Galactica: A Large Language Model for Science.", the authors claim that " | In the paper "Galactica: A Large Language Model for Science.", the authors claim that "we introduce a new approach to language modelling that combines the strengths of neural and classical models", and that it can be used to improve scientific communication. |
+| "In summary, Galactica is able to " | In summary, Galactica is able to (i) produce a large variety of galaxy types by varying the model parameters; (ii) produce galaxies with a variety of morphologies; (iii) reproduce the observed galaxy luminosity function (LF); (iv) produce a wide range of color gradients in the galaxies, and (v) reproduce the observed galaxy size distribution.|
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Legor/legor.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[^1]: Taylor, Ross, et al. "Galactica: A Large Language Model for Science." arXiv preprint arXiv:2211.09085 (2022).
