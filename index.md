@@ -6,7 +6,7 @@ Galactica is a text generation model released by Meta AI in November 2022 [^1]. 
 
 * 🌐 [Official website](https://galactica.org)
 * 📚 [Official publication](https://arxiv.org/pdf/2211.09085.pdf)
-* ![octocat](/images/GitHub-Mark-16px.png) https://github.com/paperswithcode/galai
+* https://github.com/paperswithcode/galai
 * 🤗 https://huggingface.co/facebook/galactica-6.7b
 
 ### Galactica introducing itself
