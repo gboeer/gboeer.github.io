@@ -17,6 +17,8 @@ I wondered how self-aware Galactica could be, so I tried different prompts to se
 | --- | --- |
 | "In the paper "Galactica: A Large Language Model for Science.", the authors claim that " | In the paper "Galactica: A Large Language Model for Science.", the authors claim that "we introduce a new approach to language modelling that combines the strengths of neural and classical models", and that it can be used to improve scientific communication. |
 | "In summary, Galactica is able to " | In summary, Galactica is able to (i) produce a large variety of galaxy types by varying the model parameters; (ii) produce galaxies with a variety of morphologies; (iii) reproduce the observed galaxy luminosity function (LF); (iv) produce a wide range of color gradients in the galaxies, and (v) reproduce the observed galaxy size distribution.|
+| "The new language model Galactica, by Meta AI, is able to " | The new language model Galactica, by Meta AI, is able to "understand" natural language, and to translate it into actions. |
+
 
 
 [^1]: Taylor, Ross, et al. "Galactica: A Large Language Model for Science." arXiv preprint arXiv:2211.09085 (2022).
