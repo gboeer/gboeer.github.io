@@ -1,3 +1,7 @@
+---
+title: "Galactica Playground"
+---
+
 ## Galactica Playground
 
 ### What is Galactica? 
