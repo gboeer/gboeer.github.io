@@ -1,1 +1,1 @@
-Website code for legor.de
+Website code for [legor.de](https://gboeer.github.io)
