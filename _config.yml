@@ -1,3 +1,5 @@
 theme: jekyll-theme-dinky
 title: Legor's plAIground
 show_downloads: false
+baseurl: "/gboeer.github.io" # Replace with your repo name
+url: "https://gboeer.github.io" # Replace with your GitHub username
