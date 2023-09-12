@@ -22,13 +22,9 @@
         <!-- Navigation Bar -->
         <nav>
           <ul>
-            <!-- Add GitHub profile link as the first item in the navigation -->
+            <li><a href="{{ site.baseurl | relative_url }}">Home</a></li>
             <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
-            
-            <!-- Loop through each post and create a link in the navigation bar -->
-            {% for post in site.posts %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-            {% endfor %}
+            <!-- Other links you might want to add to your navigation bar -->
           </ul>
         </nav>
       </header>
