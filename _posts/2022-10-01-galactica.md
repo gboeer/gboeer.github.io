@@ -1,8 +1,8 @@
 ---
-title: "Galactica Playground"
+title: "Galactica"
 ---
 
-## Galactica Playground
+## Galactica
 
 ### What is Galactica? 
 
