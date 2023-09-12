@@ -18,9 +18,19 @@
       <header>
         <h1 class="header">Legor's pl<span style="color: red">AI</span>ground</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+        
+        <!-- Navigation Bar -->
+        <nav>
           <ul>
+            <!-- Add GitHub profile link as the first item in the navigation -->
             <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
+            
+            <!-- Loop through each post and create a link in the navigation bar -->
+            {% for post in site.posts %}
+            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+            {% endfor %}
           </ul>
+        </nav>
       </header>
 
       <section>
@@ -28,8 +38,7 @@
       </section>
 
       <footer>
-		<p><small>&#129443; <a rel="me" href="https://det.social/@Gboeer" target=_blank>gboeer@det.social</a></small></p>
-		
+		<p><small>&#129443; <a rel="me" href="https://det.social/@Gboeer" target="_blank">gboeer@det.social</a></small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
