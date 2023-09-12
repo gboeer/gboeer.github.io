@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Solve resource import errors with pyqt"
 tags: [pyqt, Qt, python]
 description: "A simple way to solve a common import error when working with pyqt and resource files."
