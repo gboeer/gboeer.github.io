@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Advent of Code - Day 1: Trebuchet Puzzle Solution"
+tags: [AoC, Advent of Code, Python, Puzzle, Solution]
+description: "Explanation of my Python based solution to the AoC Puzzle of Day 1 in 2023."
+---
+
+
 # Advent of Code - Day 1: Trebuchet Puzzle Solution
 
 ## Unraveling the Trebuchet Mystery
