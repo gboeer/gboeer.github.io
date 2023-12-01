@@ -77,3 +77,7 @@ The function to find all starting indices of a substring can be easily implement
 Reflecting on this year's Advent of Code, Day 1's "Trebuchet?!" puzzle stands out as a notch more challenging compared to the puzzles of previous years. Particularly, the second part of the challenge brought an intriguing twist that compelled me to rethink my initial approach.
 
 My first instinct was to employ simple string replacements to extract and process the digits. While this method seemed straightforward initially, it quickly became apparent that it wasn't sufficient for the task at hand, especially when dealing with concatenated digit words like 'eightwothree'.
+
+### &#x21A7; &#x21A7; &#x21A7; 
+[Code for all my solutions for this year](https://github.com/gboeer/advent_of_code/blob/main/2023/)
+
