@@ -21,9 +21,37 @@ In this blog post, we'll explore:
 
 ---
 
+## The Foundations of YOLO: Joseph Redmon’s Contributions
+
+The YOLO story begins with [Joseph Redmon](https://www.pjreddie.com/), who introduced the framework in 2016 with his paper ["You Only Look Once: Unified, Real-Time Object Detection"](https://arxiv.org/abs/1506.02640). Over the course of three major iterations, Redmon established the foundation of YOLO’s design and philosophy, which continues to influence all subsequent versions.
+
+### Key Ideas That Define YOLO
+
+What makes YOLO unique is its **single-shot detection approach**. Instead of breaking the image into regions or running multiple passes, YOLO processes the entire image in one go, framing object detection as a regression problem. This method allows YOLO to be incredibly fast and efficient, making it ideal for real-time applications.
+
+Even today, these core ideas—processing the image in one pass, dividing it into a grid, and predicting bounding boxes and class probabilities simultaneously—are present in every version of YOLO, no matter how advanced or modified they’ve become.
+
+---
+
+### Joseph Redmon's Exit from YOLO Development
+
+In 2020, Joseph Redmon made the decision to withdraw from computer vision research. As he explained in a twitter statement, the ethical implications of his work, particularly its use in military applications and the growing concerns around privacy, were impossible for him to ignore:
+
+> "I stopped doing CV research because I saw the impact my work was having. I loved the work but the military applications and privacy concerns eventually became impossible to ignore."
+
+His withdrawal marked the end of his direct contributions to YOLO, but the framework lives on, thanks to the open-source community and researchers who continue to develop and extend it.
+
+Joseph Redmon not only made YOLO freely available but also showcased his playful and humorous personality by licensing YOLO (or more specifically, its underlying library **Darknet**) under the **"DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE"**. This license epitomized the open-source ethos of YOLO's origins and emphasized complete freedom for users. However, as the YOLO framework evolved through different contributors, subsequent versions adopted a variety of licenses, some of which impose more restrictions—something we’ll explore as we look at the newer YOLO implementations.
+
+---
+
+## The first three versions
+
+The first three YOLO versions remain **essential starting points** for anyone learning about YOLO. They encapsulate the core philosophy of YOLO—speed, simplicity, and real-time performance—and form the backbone of all subsequent developments in the framework. Even as YOLO has evolved, these foundational ideas have remained integral to most of the new version.
+
 ### YOLO v1 (2016)
 
-The original YOLO was introduced in 2016 by Joseph Redmon et al. It revolutionized object detection by framing it as a single regression problem. While it was fast, YOLO v1 struggled with detecting small objects and had relatively low accuracy compared to region proposal methods like Faster R-CNN.
+The original YOLO revolutionized object detection by framing it as a single regression problem. While it was fast, YOLO v1 struggled with detecting small objects and had relatively low accuracy compared to region proposal methods like Faster R-CNN.
 
 **Highlights:**
 - Introduced the single-shot detection approach.
@@ -31,7 +59,7 @@ The original YOLO was introduced in 2016 by Joseph Redmon et al. It revolutioniz
 - Struggled with small object detection.
 
 **Implementation:** Original [YOLO GitHub Repository](https://github.com/pjreddie/darknet)  
-**Publication:** https://arxiv.org/abs/1506.02640
+**Publication:** https://arxiv.org/abs/1506.02640  
 **License:** WTFPL (do what the fuck you want to public license) (permissive, suitable for commercial use)
 
 ---
@@ -46,8 +74,8 @@ YOLO v2, also called YOLO 9000, brought several improvements, including batch no
 - Can detect a wide variety of object classes (9,000+).
 
 **Implementation:** [Darknet YOLOv2 GitHub Repository](https://github.com/pjreddie/darknet)  
-**Publication:** https://arxiv.org/abs/1612.08242
-**License:** MIT License (permissive, suitable for commercial use)
+**Publication:** https://arxiv.org/abs/1612.08242  
+**License:** WTFPL (do what the fuck you want to public license) (permissive, suitable for commercial use)
 
 ---
 
@@ -61,11 +89,11 @@ YOLO v3 was a major upgrade. It used Darknet-53 as its backbone and introduced m
 - Higher accuracy with minimal loss in speed.
 
 **Implementation:** [Darknet YOLOv3 GitHub Repository](https://github.com/pjreddie/darknet)  
-**License:** MIT License (permissive, suitable for commercial use)
+**License:** WTFPL (do what the fuck you want to public license) (permissive, suitable for commercial use)
 
 ---
 
-### YOLO v4 (2020)
+## YOLO v4 (2020)
 
 YOLO v4 was developed by Alexey Bochkovskiy after Joseph Redmon stepped away from computer vision research. YOLO v4 focused on accessibility, making it easier for developers to train models on custom datasets. It added features like mosaic augmentation, CIoU loss, and CSPDarknet53 as the backbone.
 
