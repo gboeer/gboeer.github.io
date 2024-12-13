@@ -60,7 +60,7 @@ The original YOLO revolutionized object detection by framing it as a single regr
 
 **Implementation:** Original [YOLO GitHub Repository](https://github.com/pjreddie/darknet)  
 **Publication:** https://arxiv.org/abs/1506.02640  
-**License:** WTFPL (do what the fuck you want to public license) (permissive, suitable for commercial use)
+**License:** [WTFPL](https://github.com/pjreddie/darknet/blob/master/LICENSE.fuck) (do what the fuck you want to public license) (permissive, suitable for commercial use)
 
 ---
 
@@ -75,7 +75,7 @@ YOLO v2, also called YOLO 9000, brought several improvements, including batch no
 
 **Implementation:** [Darknet YOLOv2 GitHub Repository](https://github.com/pjreddie/darknet)  
 **Publication:** https://arxiv.org/abs/1612.08242  
-**License:** WTFPL (do what the fuck you want to public license) (permissive, suitable for commercial use)
+**License:** [WTFPL](https://github.com/pjreddie/darknet/blob/master/LICENSE.fuck) (do what the fuck you want to public license) (permissive, suitable for commercial use)
 
 ---
 
@@ -89,13 +89,13 @@ YOLO v3 was a major upgrade. It used Darknet-53 as its backbone and introduced m
 - Higher accuracy with minimal loss in speed.
 
 **Implementation:** [Darknet YOLOv3 GitHub Repository](https://github.com/pjreddie/darknet)  
-**License:** WTFPL (do what the fuck you want to public license) (permissive, suitable for commercial use)
+**License:** [WTFPL](https://github.com/pjreddie/darknet/blob/master/LICENSE.fuck) (do what the fuck you want to public license) (permissive, suitable for commercial use)
 
 ---
 
 ## YOLO v4 (2020)
 
-YOLO v4 was developed by Alexey Bochkovskiy after Joseph Redmon stepped away from computer vision research. YOLO v4 focused on accessibility, making it easier for developers to train models on custom datasets. It added features like mosaic augmentation, CIoU loss, and CSPDarknet53 as the backbone.
+YOLO v4 was developed by [:octocat: Alexey Bochkovskiy](https://github.com/AlexeyAB) after Joseph Redmon stepped away from computer vision research. YOLO v4 focused on accessibility, making it easier for developers to train models on custom datasets. It added features like mosaic augmentation, CIoU loss, and CSPDarknet53 as the backbone.
 
 **Highlights:**
 - Improved training techniques and augmentation methods.
@@ -103,8 +103,7 @@ YOLO v4 was developed by Alexey Bochkovskiy after Joseph Redmon stepped away fro
 - Suitable for training on consumer-grade hardware (e.g., GPUs like GTX 1080Ti).
 
 **Implementation:** [YOLOv4 GitHub Repository](https://github.com/AlexeyAB/darknet)  
-**License:** GNU General Public License v3.0 (GPL-3.0)  
-*Note: GPL-3.0 has restrictions for commercial applications unless the codebase is open-sourced.*
+**License:** [YOLO License](https://github.com/AlexeyAB/darknet/blob/master/LICENSE) (permissive, suitable for commercial use) 
 
 ---
 
