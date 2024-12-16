@@ -107,7 +107,7 @@ Over the years, YOLOv3 has been re-implemented in various frameworks to make it 
      *(Less permissive, restricts commercial use unless derivative works are also open-sourced)*  
 
 2. **Ultralytics YOLOv3 (2019)**  
-   Ultralytics or more precisely it's founder [:octocat: Glenn Jocher](https://github.com/glenn-jocher), initially released their own PyTorch implementation of YOLOv3. This version started as a fork of Erik Lindernoren's PyTorch implementation but quickly evolved into a more polished and user-friendly framework, offering features like pre-trained models and support for custom training. A mention of Linder-Norén's version this was based on, can still be found in [old commits of the project's readme](https://github.com/ultralytics/yolov3/commit/c3731591aff0e65aeb375a2b0f756bb87a03ccd8#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5).
+   Ultralytics or more precisely it's founder [:octocat: Glenn Jocher](https://github.com/glenn-jocher), initially released their own PyTorch implementation of YOLOv3. This version started as a fork of Erik Lindernoren's PyTorch implementation but quickly evolved into a more polished and user-friendly framework, offering features like pre-trained models and support for custom training. A mention of Linder-Norén's version this was based on, can still be found in [old commits of the project's readme](https://github.com/ultralytics/yolov3/commit/c3731591aff0e65aeb375a2b0f756bb87a03ccd8#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5R10).
    - **Implementation:** [Ultralytics YOLOv3 GitHub Repository](https://github.com/ultralytics/yolov3)  
    - **License:** [GPL-3.0](https://github.com/ultralytics/yolov3/blob/master/LICENSE)  
      *(Less permissive, restricts commercial use unless derivative works are also open-sourced)*  
@@ -132,7 +132,7 @@ YOLO v4 was developed by [:octocat: Alexey Bochkovskiy](https://github.com/Alexe
 
 ### YOLO v5 (2020)
 
-YOLOv5 is a controversial version because it was not developed by the original authors or maintainers of YOLO. Instead, it was released by the company [Ultralytics](https://www.ultralytics.com/). Despite the controversy, YOLOv5 became highly popular due to its PyTorch implementation, ease of use, and active maintenance. Ultralytics has since developed several newer YOLO versions and it can be said, that their framework hosts the most popular and best maintained YOLO implementation as of today. However, their versions are also the first ones which require a paid license for commercial usage.
+YOLOv5 was the first original Release of a YOLO version by [Ultralytics](https://www.ultralytics.com/) and has been developed by it's founder [:octocat: Glenn Jocher](https://github.com/glenn-jocher). It became highly popular due to its PyTorch implementation, ease of use, and active maintenance. Ultralytics has since developed several newer YOLO versions and it can be said, that their framework hosts the most popular and best maintained YOLO implementations as of today. Their YOLO versions in general can be used freely with an AGPL-3.0 license, which demands publishing software products which use them as open source as well. However, Ultralytics also offers a paid enterprise license for commercial usage.
 
 **Highlights:**
 - Implemented in PyTorch, making it more accessible for researchers.
@@ -177,6 +177,7 @@ YOLOv7, published by Chien-Yao Wang, Alexey Bochkovskiy and Hong-Yuan Mark Liao,
 
 ---
 
+
 ### YOLO-NAS (2023)
 
 YOLO-NAS, developed by Deci, uses neural architecture search (NAS) to optimize the model’s architecture. It offers an excellent trade-off between accuracy and speed, making it suitable for a wide range of real-world applications.
@@ -189,6 +190,66 @@ Recently, Deci has been acquired by NVIDIA, so the licensing options for using Y
 **Implementation:** [YOLO-NAS GitHub Repository](https://github.com/Deci-AI/super-gradients)  
 **License:** [Custom YOLO-NAS License](https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md) 
 ---
+### YOLO v8 (2023)
+
+YOLOv8 was introduced by **Ultralytics**, led by Glenn Jocher, Ayush Chaurasia, and Jing Qiu. As a significant step forward in the YOLO family, YOLOv8 focused on optimizing the trade-off between speed and accuracy while introducing architectural improvements that made it highly versatile.
+
+**Key Features:**
+- **Advanced Backbone and Neck Architectures:** YOLOv8 incorporates state-of-the-art backbone and neck designs for improved feature extraction and enhanced object detection performance.
+- **Anchor-Free Ultralytics Head:** YOLOv8 utilizes an anchor-free detection head, which increases efficiency and accuracy compared to traditional anchor-based approaches.
+- **Optimized Accuracy-Speed Tradeoff:** Designed for real-time applications, YOLOv8 strikes a fine balance between speed and detection accuracy, making it suitable for diverse tasks.
+- **Pre-trained Models:** A variety of pre-trained models are provided, enabling users to easily adapt YOLOv8 to specific use cases without starting from scratch.
+
+**Implementation:** [Ultralytics GitHub Repository](https://github.com/ultralytics/ultralytics)  
+**License:** [GNU Affero General Public License v3.0](https://github.com/ultralytics/yolov5/blob/master/LICENSE) *(AGPL-3.0, restricts commercial use unless derivative works are also open-sourced)*  
+
+---
+
+### YOLO v9 (2024)
+
+YOLOv9, developed by **Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao**, introduced innovative concepts to overcome the challenge of information loss in deep neural networks, making it a groundbreaking step in real-time object detection.
+
+**Key Features:**
+- **Programmable Gradient Information (PGI):** Addresses the information bottleneck problem by preserving essential data across network layers, improving gradient reliability and model convergence.
+- **Reversible Functions:** Allows lossless information flow throughout the network, particularly in deeper layers, mitigating data degradation.
+- **Generalized Efficient Layer Aggregation Network (GELAN):** Enhances computational efficiency and parameter utilization, ensuring the architecture is adaptable to various use cases.
+- **Lightweight Model Optimization:** Designed to retain performance in lightweight models by preserving crucial information, making YOLOv9 suitable for resource-constrained environments.
+
+**Implementation:** [YOLOv9 GitHub Repository](https://github.com/WongKinYiu/yolov9)  
+**Publication:** [YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information](https://arxiv.org/abs/2402.13616)  
+**License:** [GNU General Public License v3.0](https://github.com/WongKinYiu/yolov9/blob/main/LICENSE) *(GPL-3.0, restricts commercial use unless derivative works are also open-sourced)*  
+
+---
+
+### YOLO v10 (2024)
+
+YOLOv10, developed by researchers from **Tsinghua University** (Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding), introduces a significant shift in real-time object detection by eliminating the need for non-maximum suppression (NMS).
+
+**Key Features:**
+- **NMS-Free Training:** Replaces traditional non-maximum suppression with a consistent dual-assignment approach during training, reducing inference latency and improving prediction efficiency.
+- **One-to-One Detection Head:** Ensures that each object is assigned a single best prediction, further simplifying the detection pipeline.
+- **Optimized Model Design:** Includes refined architectural components to achieve better performance with reduced computational overhead.
+
+**Implementation:** [YOLOv10 GitHub Repository](https://github.com/THU-MIG/yolov10)  
+**Publication:** [YOLOv10: Real-Time End-to-End Object Detection](https://arxiv.org/abs/2405.14458)  
+**License:** [GNU Affero General Public License v3.0](https://github.com/THU-MIG/yolov10/blob/main/LICENSE) *(AGPL-3.0, restricts commercial use unless derivative works are also open-sourced)*  
+
+---
+
+### YOLO v11 (2024)
+
+YOLOv11 is the latest release from **Ultralytics**, building on its predecessors with a strong focus on computational efficiency, accuracy, and support for a broader range of tasks. It incorporates advancements in feature extraction and training optimization.
+
+**Key Features:**
+- **Enhanced Feature Extraction:** Improved backbone and neck architectures deliver better feature extraction, enabling more precise object detection.
+- **Optimized Efficiency and Speed:** Refined designs and training pipelines allow for faster inference while maintaining a strong balance between accuracy and performance.
+- **Higher Accuracy with Fewer Parameters:** YOLOv11 achieves higher mean Average Precision (mAP) on benchmarks like COCO while reducing model parameters by 22% compared to YOLOv8m, making it computationally efficient.
+- **Versatile Deployment:** Designed for seamless deployment across edge devices, cloud platforms, and NVIDIA GPU-powered systems.
+- **Broad Task Support:** Supports diverse computer vision tasks such as object detection, instance segmentation, image classification, pose estimation, and oriented object detection (OBB).
+
+**Implementation:** [Ultralytics GitHub Repository](https://github.com/ultralytics/ultralytics)  
+**License:** [GNU Affero General Public License v3.0](https://github.com/ultralytics/yolov5/blob/master/LICENSE) *(AGPL-3.0, restricts commercial use unless derivative works are also open-sourced)*  
+
 
 ## Summary: Choosing the Right YOLO Version
 
@@ -207,8 +268,6 @@ Here’s a quick overview of YOLO versions, their licenses, and suitability for 
 
 ---
 
-## Conclusion
+## Sources
 
-YOLO's journey has been remarkable, with each version pushing the boundaries of what real-time object detection can achieve. Choosing the right version depends on your project's needs, the desired trade-off between speed and accuracy, and licensing requirements for commercial use. If you're looking for a well-maintained, permissively licensed version, YOLOv6, YOLOv7, or YOLO-NAS may be the best choices.
-
-Which YOLO version are you using for your project? Let us know
+Yolo versions overview by Ultralytics: https://docs.ultralytics.com/models/
