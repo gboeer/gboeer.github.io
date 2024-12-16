@@ -115,7 +115,7 @@ Over the years, YOLOv3 has been re-implemented in various frameworks to make it 
 
 ---
 
-## YOLO v4 (2020)
+### YOLO v4 (2020)
 
 YOLO v4 was developed by [:octocat: Alexey Bochkovskiy](https://github.com/AlexeyAB) after Joseph Redmon stepped away from computer vision research. YOLO v4 focused on accessibility, making it easier for developers to train models on custom datasets. It added features like [mosaic augmentation](https://wiki.cloudfactory.com/docs/mp-wiki/augmentations/mosaic), CIoU loss, and CSPDarknet53 as the backbone.
 
@@ -142,6 +142,52 @@ YOLOv5 was the first original Release of a YOLO version by [Ultralytics](https:/
 **Implementation:** [YOLOv5 GitHub Repository](https://github.com/ultralytics/yolov5)  
 **License:** [GNU Affero General Public License v3.0](https://github.com/ultralytics/yolov5/blob/master/LICENSE) (AGPL-3.0)  
 *Note: AGPL-3.0 requires that modifications to the codebase be shared, even in SaaS applications.*
+
+---### YOLOX (2021)
+
+YOLOX, developed by **Zheng Ge, Songtao Liu, Feng Wang, Zeming Li, and Jian Sun**, represents a high-performance rethinking of the YOLO series. This anchor-free object detector integrates advanced techniques, such as decoupled heads and the SimOTA label assignment strategy, to achieve state-of-the-art results. YOLOX performs exceptionally well across various model sizes, making it suitable for a wide range of applications, from lightweight models to large-scale real-time detection.
+
+**Key Features:**
+- **Anchor-Free Design:** Moves away from anchor-based detection for simpler implementation and improved accuracy.
+- **Decoupled Head:** Separates classification and regression tasks for better performance.
+- **SimOTA Label Assignment:** Employs the SimOTA strategy for more efficient and accurate label assignment during training.
+- **Versatility:** YOLOX supports a range of model sizes, including YOLO-Nano for ultra-lightweight applications and YOLOX-L for high-performance detection.
+- **Deployment-Ready:** Pre-built support for ONNX, TensorRT, NCNN, and OpenVINO ensures easy deployment across platforms.
+- **Performance Highlights:** Achieved 50.0% AP on COCO with YOLOX-L at 68.9 FPS (Tesla V100), and outperformed other YOLO models like YOLOv5-L.
+
+**Implementation:** [YOLOX GitHub Repository](https://github.com/Megvii-BaseDetection/YOLOX)  
+**Publication:** [YOLOX: Exceeding YOLO Series in 2021](https://arxiv.org/abs/2107.08430)  
+**License:** [Apache 2.0](https://github.com/Megvii-BaseDetection/YOLOX/blob/main/LICENSE) *(Permissive, suitable for commercial use)*  
+
+---
+
+### YOLOV (2022) and YOLOV++ (2024)
+
+YOLOV and YOLOV++ are advancements aimed specifically at **video object detection (VOD)**, developed by **Yuheng Shi et al.** These models tackle the unique challenges of VOD, such as high variation in object appearance and frame deterioration, by proposing efficient strategies for feature aggregation and selection. While YOLOV introduces the foundational ideas, YOLOV++ builds upon it to achieve record-breaking performance.
+
+#### YOLOV (2022)
+
+**Key Features:**
+- **Feature Aggregation Across Frames:** Aggregates features across video frames to leverage temporal information, improving accuracy while keeping computational overhead low.
+- **One-Stage Detector Focus:** Tailored for one-stage detectors to avoid the computational cost of two-stage approaches.
+- **Performance Highlights:** Achieved 87.5% AP50 at over 30 FPS on the ImageNet VID dataset using a single NVIDIA 2080Ti GPU, making it highly suitable for real-time applications.
+
+**Publication:** [YOLOV: Making Still Image Object Detectors Great at Video Object Detection](https://arxiv.org/abs/2208.09686)  
+**Implementation:** [YOLOV GitHub Repository](https://github.com/YuHengsss/YOLOV)  
+**License:** [Apache 2.0](https://github.com/YuHengsss/YOLOV/blob/master/LICENSE) *(Permissive, suitable for commercial use)*  
+
+#### YOLOV++ (2024)
+
+YOLOV++ enhances YOLOV with more advanced feature selection and aggregation methods, specifically designed to minimize computational expense while maximizing accuracy for video object detection.
+
+**Key Features:**
+- **Selective Feature Aggregation:** Introduces a novel strategy for selecting and aggregating features from dense prediction maps, reducing memory usage and computation costs.
+- **Relationship Evaluation:** Evaluates the relationship between target and reference frames to guide feature aggregation effectively.
+- **Record-Breaking Performance:** Reached 92.9% AP50 at over 30 FPS on the ImageNet VID dataset using a single NVIDIA 3090 GPU, making it a standout choice for large-scale or real-time video applications.
+
+**Publication:** [Practical Video Object Detection via Feature Selection and Aggregation](https://arxiv.org/abs/2407.19650)  
+**Implementation:** [YOLOV GitHub Repository](https://github.com/YuHengsss/YOLOV)  
+**License:** [Apache 2.0](https://github.com/YuHengsss/YOLOV/blob/master/LICENSE) *(Permissive, suitable for commercial use)*  
 
 ---
 
@@ -249,6 +295,7 @@ YOLOv11 is the latest release from **Ultralytics**, building on its predecessors
 
 **Implementation:** [Ultralytics GitHub Repository](https://github.com/ultralytics/ultralytics)  
 **License:** [GNU Affero General Public License v3.0](https://github.com/ultralytics/yolov5/blob/master/LICENSE) *(AGPL-3.0, restricts commercial use unless derivative works are also open-sourced)*  
+
 
 
 ## Summary: Choosing the Right YOLO Version
