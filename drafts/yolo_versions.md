@@ -88,9 +88,30 @@ YOLO v3 was a major upgrade. It used Darknet-53 as its backbone and introduced m
 - Improved backbone architecture (Darknet-53).
 - Higher accuracy with minimal loss in speed.
 
-**Implementation:** [Darknet GitHub Repository](https://github.com/pjreddie/darknet)  
-**Publication:** [YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767)  
-**License:** [WTFPL](https://github.com/pjreddie/darknet/blob/master/LICENSE.fuck) (do what the fuck you want to public license) (permissive, suitable for commercial use)
+#### Official Implementation by Joseph Redmon
+
+The original implementation of YOLOv3 was released by Joseph Redmon in his Darknet framework. This version is written in C and CUDA and serves as the basis for many of the YOLO models that followed.
+
+- **Implementation:** [Darknet GitHub Repository](https://github.com/pjreddie/darknet)  
+- **Publication:** [YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767)  
+- **License:** [WTFPL](https://github.com/pjreddie/darknet/blob/master/LICENSE.fuck) (do what the fuck you want to public license) (permissive, suitable for commercial use)
+
+#### Community Implementations
+
+Over the years, YOLOv3 has been re-implemented in various frameworks to make it more accessible and easier to use. Here are some notable community-driven implementations:
+
+1. **PyTorch YOLOv3 by Erik Linder-Norén (2019)**  
+   This is an early and popular re-implementation of YOLOv3 in PyTorch, designed to simplify training and inference for researchers and developers.  
+   - **Implementation:** [PyTorch-YOLOv3 GitHub Repository](https://github.com/eriklindernoren/PyTorch-YOLOv3)  
+   - **License:** [GPL-3.0](https://github.com/eriklindernoren/PyTorch-YOLOv3/blob/master/LICENSE) 
+     *(Less permissive, restricts commercial use unless derivative works are also open-sourced)*  
+
+2. **Ultralytics YOLOv3 (2019)**  
+   Ultralytics or more precisely it's founder [:octocat: Glenn Jocher](https://github.com/glenn-jocher), initially released their own PyTorch implementation of YOLOv3. This version started as a fork of Erik Lindernoren's PyTorch implementation but quickly evolved into a more polished and user-friendly framework, offering features like pre-trained models and support for custom training. A mention of Linder-Norén's version this was based on, can still be found in [old commits of the project's readme](https://github.com/ultralytics/yolov3/commit/c3731591aff0e65aeb375a2b0f756bb87a03ccd8#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5).
+   - **Implementation:** [Ultralytics YOLOv3 GitHub Repository](https://github.com/ultralytics/yolov3)  
+   - **License:** [GPL-3.0](https://github.com/ultralytics/yolov3/blob/master/LICENSE)  
+     *(Less permissive, restricts commercial use unless derivative works are also open-sourced)*  
+
 
 ---
 
@@ -135,34 +156,38 @@ YOLOv6 was introduced by Meituan as an industrial-grade object detection framewo
 **Implementation:** [YOLOv6 GitHub Repository](https://github.com/meituan/YOLOv6)  
 **Publication:** [YOLOv6: A Single-Stage Object Detection Framework for Industrial Applications](https://arxiv.org/abs/2209.02976)  
 **License:** [GNU General Public License v3.0](https://github.com/meituan/YOLOv6/blob/main/LICENSE)
+
 *Assessment for Commercial Use:* The GNU General Public License v3.0 (GPL-3.0) requires that any derivative works or applications using the software must also be distributed under the same license. This means that if you modify or build upon YOLOv6, you must open-source your code under GPL-3.0. For commercial use, this restriction can be limiting unless the source code of your application is also made available, which is not ideal for proprietary software. For companies seeking to keep their projects closed-source, YOLOv6 may not be a suitable choice.
 
 ---
 
 ### YOLO v7 (2022)
 
-YOLOv7 claims to be the fastest and most accurate real-time object detection model in the YOLO family. It introduced several innovative features like Extended Efficient Layer Aggregation Networks (E-ELAN).
+YOLOv7, published by Chien-Yao Wang, Alexey Bochkovskiy and Hong-Yuan Mark Liao, claims to be the fastest and most accurate real-time object detection model in the YOLO family. It introduced several innovative features like Extended Efficient Layer Aggregation Networks (E-ELAN).
 
 **Highlights:**
 - State-of-the-art accuracy on COCO dataset benchmarks.
 - Optimized for real-time object detection.
 
 **Implementation:** [YOLOv7 GitHub Repository](https://github.com/WongKinYiu/yolov7)  
-**License:** Apache License 2.0 (permissive, suitable for commercial use)
+**Publication:** [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)
+**License:** [GNU General Public License v3.0 ](https://github.com/WongKinYiu/yolov7/blob/main/LICENSE.md)
+
+*Assessment for Commercial Use:* The GNU General Public License v3.0 (GPL-3.0) requires that any derivative works or applications using the software must also be distributed under the same license. This means that if you modify or build upon YOLOv7, you must open-source your code under GPL-3.0. For commercial use, this restriction can be limiting unless the source code of your application is also made available, which is not ideal for proprietary software. For companies seeking to keep their projects closed-source, YOLOv7 may not be a suitable choice.
 
 ---
 
 ### YOLO-NAS (2023)
 
 YOLO-NAS, developed by Deci, uses neural architecture search (NAS) to optimize the model’s architecture. It offers an excellent trade-off between accuracy and speed, making it suitable for a wide range of real-world applications.
+Recently, Deci has been acquired by NVIDIA, so the licensing options for using YOLO-NAS are currently in hold.
 
 **Highlights:**
 - Leverages NAS for automated architecture optimization.
 - Outperforms YOLOv5 and YOLOv6 on speed and accuracy.
 
-**Implementation:** [YOLO-NAS GitHub Repository](https://github.com/Deci-AI/yolonas)  
-**License:** Apache License 2.0 (permissive, suitable for commercial use)
-
+**Implementation:** [YOLO-NAS GitHub Repository](https://github.com/Deci-AI/super-gradients)  
+**License:** [Custom YOLO-NAS License](https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md) 
 ---
 
 ## Summary: Choosing the Right YOLO Version
