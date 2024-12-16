@@ -96,7 +96,7 @@ YOLO v3 was a major upgrade. It used Darknet-53 as its backbone and introduced m
 
 ## YOLO v4 (2020)
 
-YOLO v4 was developed by [:octocat: Alexey Bochkovskiy](https://github.com/AlexeyAB) after Joseph Redmon stepped away from computer vision research. YOLO v4 focused on accessibility, making it easier for developers to train models on custom datasets. It added features like mosaic augmentation, CIoU loss, and CSPDarknet53 as the backbone.
+YOLO v4 was developed by [:octocat: Alexey Bochkovskiy](https://github.com/AlexeyAB) after Joseph Redmon stepped away from computer vision research. YOLO v4 focused on accessibility, making it easier for developers to train models on custom datasets. It added features like [mosaic augmentation](https://wiki.cloudfactory.com/docs/mp-wiki/augmentations/mosaic), CIoU loss, and CSPDarknet53 as the backbone.
 
 **Highlights:**
 - Improved training techniques and augmentation methods.
@@ -111,7 +111,7 @@ YOLO v4 was developed by [:octocat: Alexey Bochkovskiy](https://github.com/Alexe
 
 ### YOLO v5 (2020)
 
-YOLOv5 is a controversial version because it was not developed by the original authors or maintainers of YOLO. Instead, it was released by Ultralytics. Despite the controversy, YOLOv5 became highly popular due to its PyTorch implementation, ease of use, and active maintenance.
+YOLOv5 is a controversial version because it was not developed by the original authors or maintainers of YOLO. Instead, it was released by the company [Ultralytics](https://www.ultralytics.com/). Despite the controversy, YOLOv5 became highly popular due to its PyTorch implementation, ease of use, and active maintenance. Ultralytics has since developed several newer YOLO versions and it can be said, that their framework hosts the most popular and best maintained YOLO implementation as of today. However, their versions are also the first ones which require a paid license for commercial usage.
 
 **Highlights:**
 - Implemented in PyTorch, making it more accessible for researchers.
@@ -119,7 +119,7 @@ YOLOv5 is a controversial version because it was not developed by the original a
 - Regularly updated with new features.
 
 **Implementation:** [YOLOv5 GitHub Repository](https://github.com/ultralytics/yolov5)  
-**License:** GNU Affero General Public License v3.0 (AGPL-3.0)  
+**License:** [GNU Affero General Public License v3.0](https://github.com/ultralytics/yolov5/blob/master/LICENSE) (AGPL-3.0)  
 *Note: AGPL-3.0 requires that modifications to the codebase be shared, even in SaaS applications.*
 
 ---
@@ -133,7 +133,9 @@ YOLOv6 was introduced by Meituan as an industrial-grade object detection framewo
 - Superior performance compared to YOLOv5 on certain benchmarks.
 
 **Implementation:** [YOLOv6 GitHub Repository](https://github.com/meituan/YOLOv6)  
-**License:** Apache License 2.0 (permissive, suitable for commercial use)
+**Publication:** [YOLOv6: A Single-Stage Object Detection Framework for Industrial Applications](https://arxiv.org/abs/2209.02976)  
+**License:** [GNU General Public License v3.0](https://github.com/meituan/YOLOv6/blob/main/LICENSE)
+*Assessment for Commercial Use:* The GNU General Public License v3.0 (GPL-3.0) requires that any derivative works or applications using the software must also be distributed under the same license. This means that if you modify or build upon YOLOv6, you must open-source your code under GPL-3.0. For commercial use, this restriction can be limiting unless the source code of your application is also made available, which is not ideal for proprietary software. For companies seeking to keep their projects closed-source, YOLOv6 may not be a suitable choice.
 
 ---
 
