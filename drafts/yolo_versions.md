@@ -58,8 +58,8 @@ The original YOLO revolutionized object detection by framing it as a single regr
 - Achieved 45 FPS on a standard GPU.
 - Struggled with small object detection.
 
-**Implementation:** Original [YOLO GitHub Repository](https://github.com/pjreddie/darknet)  
-**Publication:** https://arxiv.org/abs/1506.02640  
+**Implementation:** Original [Darknet GitHub Repository](https://github.com/pjreddie/darknet)  
+**Publication:** [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)   
 **License:** [WTFPL](https://github.com/pjreddie/darknet/blob/master/LICENSE.fuck) (do what the fuck you want to public license) (permissive, suitable for commercial use)
 
 ---
@@ -73,8 +73,8 @@ YOLO v2, also called YOLO 9000, brought several improvements, including batch no
 - Introduced anchor boxes for better localization.
 - Can detect a wide variety of object classes (9,000+).
 
-**Implementation:** [Darknet YOLOv2 GitHub Repository](https://github.com/pjreddie/darknet)  
-**Publication:** https://arxiv.org/abs/1612.08242  
+**Implementation:** [Darknet GitHub Repository](https://github.com/pjreddie/darknet)  
+**Publication:** [YOLO9000: Better, Faster, Stronger](https://arxiv.org/abs/1612.08242)   
 **License:** [WTFPL](https://github.com/pjreddie/darknet/blob/master/LICENSE.fuck) (do what the fuck you want to public license) (permissive, suitable for commercial use)
 
 ---
@@ -88,7 +88,8 @@ YOLO v3 was a major upgrade. It used Darknet-53 as its backbone and introduced m
 - Improved backbone architecture (Darknet-53).
 - Higher accuracy with minimal loss in speed.
 
-**Implementation:** [Darknet YOLOv3 GitHub Repository](https://github.com/pjreddie/darknet)  
+**Implementation:** [Darknet GitHub Repository](https://github.com/pjreddie/darknet)  
+**Publication:** [YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767)  
 **License:** [WTFPL](https://github.com/pjreddie/darknet/blob/master/LICENSE.fuck) (do what the fuck you want to public license) (permissive, suitable for commercial use)
 
 ---
