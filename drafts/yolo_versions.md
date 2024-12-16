@@ -143,7 +143,9 @@ YOLOv5 was the first original Release of a YOLO version by [Ultralytics](https:/
 **License:** [GNU Affero General Public License v3.0](https://github.com/ultralytics/yolov5/blob/master/LICENSE) (AGPL-3.0)  
 *Note: AGPL-3.0 requires that modifications to the codebase be shared, even in SaaS applications.*
 
----### YOLOX (2021)
+---
+
+### YOLOX (2021)
 
 YOLOX, developed by **Zheng Ge, Songtao Liu, Feng Wang, Zeming Li, and Jian Sun**, represents a high-performance rethinking of the YOLO series. This anchor-free object detector integrates advanced techniques, such as decoupled heads and the SimOTA label assignment strategy, to achieve state-of-the-art results. YOLOX performs exceptionally well across various model sizes, making it suitable for a wide range of applications, from lightweight models to large-scale real-time detection.
 
@@ -235,6 +237,7 @@ Recently, Deci has been acquired by NVIDIA, so the licensing options for using Y
 
 **Implementation:** [YOLO-NAS GitHub Repository](https://github.com/Deci-AI/super-gradients)  
 **License:** [Custom YOLO-NAS License](https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md) 
+
 ---
 ### YOLO v8 (2023)
 
