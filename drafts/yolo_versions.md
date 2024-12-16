@@ -103,6 +103,7 @@ YOLO v4 was developed by [:octocat: Alexey Bochkovskiy](https://github.com/Alexe
 - Suitable for training on consumer-grade hardware (e.g., GPUs like GTX 1080Ti).
 
 **Implementation:** [YOLOv4 GitHub Repository](https://github.com/AlexeyAB/darknet)  
+**Publication**: [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/abs/2004.10934)  
 **License:** [YOLO License](https://github.com/AlexeyAB/darknet/blob/master/LICENSE) (permissive, suitable for commercial use) 
 
 ---
