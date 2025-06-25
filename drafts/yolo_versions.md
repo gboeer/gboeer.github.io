@@ -319,7 +319,7 @@ YOLOv11 is the latest release from **Ultralytics**, building on its predecessors
 
 ## Understanding YOLO Licenses and Their Implications for Commercial Use
 
-When choosing a YOLO implementation for real-world applications—especially proprietary or commercial products—it’s essential to understand the **software license** under which it is released. Different licenses come with different levels of freedom and restriction, particularly when it comes to modifying code, redistributing it, and using it in closed-source commercial products.
+When choosing a YOLO implementation for real-world applications, especially proprietary or commercial products, it’s essential to understand the **software license** under which it is released. Different licenses come with different levels of freedom and restriction, particularly when it comes to modifying code, redistributing it, and using it in closed-source commercial products.
 
 Here’s an overview of the most relevant licenses used in YOLO implementations, along with a summary of their impact on commercial use. *This is not legal advice—consult a legal professional for guidance on compliance in your specific context.*
 
@@ -361,7 +361,61 @@ The Apache 2.0 license is highly permissive. You can use, modify, and distribute
 **Type:** Permissive  
 **Commercial Use:** ✅ **Allowed**
 
-Similar in spirit to Apache 2.0, the MIT Licen
+Similar in spirit to Apache 2.0, the MIT License allows free commercial use, including in closed-source projects. The only requirements are to include the original license and copyright notice.
+
+---
+
+### 🟦 WTFPL (Do What the F*** You Want to Public License)
+
+**Used by:** Original Darknet implementation (YOLOv1–v3)  
+**Type:** Very Permissive  
+**Commercial Use:** ✅ **Unrestricted**
+
+This is perhaps the most permissive license in existence. As the name implies, it grants complete freedom to do whatever you want with the code, including using it in proprietary software, without any obligations.
+
+---
+
+### 🟪 YOLO License by Joseph Redmon (Darknet)
+
+**Used by:** Darknet (Redmon’s implementation of YOLOv1–v3)  
+**Type:** Public Domain / Custom  
+**Commercial Use:** ✅ **Unrestricted**
+
+This humorous license effectively places Darknet in the public domain. It explicitly states:  
+> "Do whatever you want with it. Stop emailing me about it!"
+
+There are no restrictions whatsoever, making it fully usable in commercial projects.
+
+---
+
+### ⛔ YOLO-NAS License by Deci.AI
+
+**Used by:** YOLO-NAS  
+**Type:** Custom, Proprietary  
+**Commercial Use:** ❌ **Prohibited without explicit permission**
+
+YOLO-NAS is **not** open source. Although the code is available for research and non-commercial use, the license **explicitly forbids** using the software in any commercial or production setting unless you have prior written permission from Deci. This includes deploying it in models used as a service, in SaaS platforms, or integrated into commercial apps.
+
+---
+
+### Summary Table: Licensing at a Glance
+
+| **License**                      | **Used By**                             | **Commercial Use**      | **Closed-Source Allowed?** | **Key Notes**                                  |
+|----------------------------------|------------------------------------------|--------------------------|-----------------------------|------------------------------------------------|
+| AGPL-3.0                         | YOLOv5, YOLOv8, YOLOv10, YOLOv11         | ⚠️ Limited               | ❌ No                        | Must release full source, even for SaaS use    |
+| GPL-3.0                          | YOLOv4, YOLOv6, YOLOv9                   | ⚠️ Limited               | ❌ No                        | Strong copyleft, all derivatives must be GPL   |
+| Apache 2.0                       | YOLOX, YOLOV, YOLOV++                    | ✅ Yes                  | ✅ Yes                      | Safe for commercial/proprietary use            |
+| MIT                              | Community YOLOv3 (e.g., Lindernoren)     | ✅ Yes                  | ✅ Yes                      | Very permissive                                |
+| WTFPL                            | Darknet YOLOv1–v3                        | ✅ Yes                  | ✅ Yes                      | Do literally anything                          |
+| YOLO License (custom, public domain) | Darknet (Redmon)                       | ✅ Yes                  | ✅ Yes                      | Public domain + humor                          |
+| YOLO-NAS (Deci.AI)               | YOLO-NAS                                 | ❌ No                   | ❌ No                       | Commercial use prohibited without permission    |
+
+---
+
+In conclusion, if you're planning to build **proprietary** or **commercial** software products with YOLO, you’ll want to focus on versions licensed under **Apache 2.0**, **MIT**, or **public domain equivalents**. Versions under **AGPL** or **GPL** are best suited for open-source projects, academic research, or internal experimentation unless you're prepared to make your code publicly available.
+
+Always review the specific license files in each repository, and if in doubt, seek legal advice.
+
 
 
 
