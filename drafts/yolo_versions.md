@@ -299,7 +299,23 @@ YOLOv11 is the latest release from **Ultralytics**, building on its predecessors
 **Implementation:** [Ultralytics GitHub Repository](https://github.com/ultralytics/ultralytics)  
 **License:** [GNU Affero General Public License v3.0](https://github.com/ultralytics/yolov5/blob/master/LICENSE) *(AGPL-3.0, restricts commercial use unless derivative works are also open-sourced)*  
 
+### YOLO v12 (2025)
 
+**YOLOv12**, developed by **Yunjie Tian**, **Qixiang Ye**, and **David Doermann**, introduces a new attention-centric paradigm to the YOLO family. Unlike its CNN-focused predecessors, YOLOv12 integrates attention mechanisms into the core of the architecture—while still preserving the hallmark efficiency and speed that define YOLO detectors.
+
+**Key Features:**
+- **Attention-Centric Architecture:** YOLOv12 is the first in the YOLO series to be built around attention modules rather than convolution. It uses a novel *area attention* mechanism, which maintains a large receptive field while significantly reducing computation cost.
+- **Residual Efficient Layer Aggregation (R-ELAN):** Improves upon traditional ELAN modules by introducing residual connections and more effective feature aggregation for stable training, especially in large models.
+- **Speed-Optimized Transformer Techniques:** Incorporates optimizations like FlashAttention, removal of positional encodings, and modified MLP ratios to reduce latency and memory bottlenecks.
+- **Superior Performance:** YOLOv12 consistently outperforms previous YOLO versions (v9–v11) and transformer-based detectors like RT-DETR and RT-DETRv2 across multiple model scales. For example:
+  - **YOLOv12-N:** 40.6% mAP with just 1.64 ms latency.
+  - **YOLOv12-S:** 48.0% mAP, beating YOLOv11-S by 1.1% with similar resource usage.
+  - **YOLOv12-X:** 55.2% mAP—outperforming YOLOv11-X and RT-DETRv2-R101 while running faster and using fewer parameters.
+
+**Implementation:** [YOLOv12 GitHub Repository](https://github.com/sunsmarterjie/yolov12)  
+**Publication:** *[YOLOv12: Attention-Centric Real-Time Object Detectors](https://arxiv.org/abs/2502.12524)*  
+**License:** [GNU Affero General Public License v3.0](https://github.com/sunsmarterjie/yolov12?tab=AGPL-3.0-1-ov-file) 
+*Note: May require GPUs compatible with FlashAttention (Turing or newer NVIDIA architectures).*
 
 ## Summary: Choosing the Right YOLO Version
 
