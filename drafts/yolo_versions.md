@@ -266,7 +266,7 @@ YOLOv9, developed by **Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao**, int
 
 **Implementation:** [YOLOv9 GitHub Repository](https://github.com/WongKinYiu/yolov9)  
 **Publication:** [YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information](https://arxiv.org/abs/2402.13616)  
-**License:** [GNU General Public License v3.0](https://github.com/WongKinYiu/yolov9/blob/main/LICENSE) *(GPL-3.0, restricts commercial use unless derivative works are also open-sourced)*  
+**License:** [GNU General Public License v3.0](https://github.com/WongKinYiu/yolov9/tree/main?tab=GPL-3.0-1-ov-file) *(GPL-3.0, restricts commercial use unless derivative works are also open-sourced)*  
 
 ---
 
