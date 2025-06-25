@@ -317,6 +317,54 @@ YOLOv11 is the latest release from **Ultralytics**, building on its predecessors
 **License:** [GNU Affero General Public License v3.0](https://github.com/sunsmarterjie/yolov12?tab=AGPL-3.0-1-ov-file) 
 *Note: May require GPUs compatible with FlashAttention (Turing or newer NVIDIA architectures).*
 
+## Understanding YOLO Licenses and Their Implications for Commercial Use
+
+When choosing a YOLO implementation for real-world applications—especially proprietary or commercial products—it’s essential to understand the **software license** under which it is released. Different licenses come with different levels of freedom and restriction, particularly when it comes to modifying code, redistributing it, and using it in closed-source commercial products.
+
+Here’s an overview of the most relevant licenses used in YOLO implementations, along with a summary of their impact on commercial use. *This is not legal advice—consult a legal professional for guidance on compliance in your specific context.*
+
+---
+
+### 🟥 GNU Affero General Public License v3.0 (AGPL-3.0)
+
+**Used by:** YOLOv5, YOLOv8, YOLOv10, YOLOv11  
+**Type:** Strong Copyleft  
+**Commercial Use:** ⚠️ **Restricted**
+
+The AGPL-3.0 is one of the most restrictive open-source licenses. It allows commercial use *only if* you make your **entire** source code (including modifications and any software it interacts with over a network) publicly available under the same license. This effectively prohibits proprietary use unless you're willing to open source your codebase. This makes it unsuitable for most closed-source or SaaS products.
+
+---
+
+### 🟧 GNU General Public License v3.0 (GPL-3.0)
+
+**Used by:** YOLOv4, YOLOv6, YOLOv9  
+**Type:** Strong Copyleft  
+**Commercial Use:** ⚠️ **Restricted**
+
+Like the AGPL, the GPL-3.0 requires that derivative works and linked components also be released under the same license. You can use GPL-licensed software in commercial products, *but only if* you also open source those products under GPL. This may not be compatible with proprietary or internal-use software models.
+
+---
+
+### 🟨 Apache License 2.0
+
+**Used by:** YOLOX, YOLOV, YOLOV++  
+**Type:** Permissive  
+**Commercial Use:** ✅ **Allowed**
+
+The Apache 2.0 license is highly permissive. You can use, modify, and distribute the software in proprietary products without releasing your own source code, provided you retain copyright and license notices. It also includes a patent grant, offering additional protection.
+
+---
+
+### 🟩 MIT License
+
+**Used by:** Some YOLOv3 community implementations (e.g., by Erik Lindernoren)  
+**Type:** Permissive  
+**Commercial Use:** ✅ **Allowed**
+
+Similar in spirit to Apache 2.0, the MIT Licen
+
+
+
 ## Summary: Choosing the Right YOLO Version
 
 Here’s a quick overview of YOLO versions, their licenses, and suitability for commercial use:
