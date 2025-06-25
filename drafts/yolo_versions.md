@@ -10,7 +10,7 @@
 
 # YOLO: A Journey Through Its Versions
 
-Object detection is one of the most exciting tasks in computer vision, and **YOLO (You Only Look Once)** has been at the forefront of this domain for years. YOLO is known for its real-time object detection capabilities, simplicity, and speed, which makes it ideal for many applications, from self-driving cars to video surveillance systems. Over time, several versions and forks of YOLO have emerged, each offering improvements and trade-offs. However, with so many versions and implementations, finding the right one for your project—especially for commercial use—can be overwhelming.
+Object detection is one of the most exciting tasks in computer vision, and **YOLO (You Only Look Once)** has been at the forefront of this domain for years. YOLO is known for its real-time object detection capabilities, simplicity, and speed, which makes it ideal for many applications, from self-driving cars to video surveillance systems. Over time, several versions and forks of YOLO have emerged, each offering improvements and trade-offs. However, with so many versions and implementations, finding the right one for your project, especially for commercial use, can be overwhelming.
 
 In this blog post, we'll explore:
 
@@ -29,7 +29,7 @@ The YOLO story begins with [Joseph Redmon](https://www.pjreddie.com/), who intro
 
 What makes YOLO unique is its **single-shot detection approach**. Instead of breaking the image into regions or running multiple passes, YOLO processes the entire image in one go, framing object detection as a regression problem. This method allows YOLO to be incredibly fast and efficient, making it ideal for real-time applications.
 
-Even today, these core ideas—processing the image in one pass, dividing it into a grid, and predicting bounding boxes and class probabilities simultaneously—are present in every version of YOLO, no matter how advanced or modified they’ve become.
+Even today, these core ideas, processing the image in one pass, dividing it into a grid, and predicting bounding boxes and class probabilities simultaneously, are present in every version of YOLO, no matter how advanced or modified they’ve become.
 
 ---
 
@@ -37,11 +37,11 @@ Even today, these core ideas—processing the image in one pass, dividing it int
 
 In 2020, Joseph Redmon made the decision to withdraw from computer vision research. As he explained in a twitter statement, the ethical implications of his work, particularly its use in military applications and the growing concerns around privacy, were impossible for him to ignore:
 
-> "I stopped doing CV research because I saw the impact my work was having. I loved the work but the military applications and privacy concerns eventually became impossible to ignore."
+> "I stopped doing CV research because I saw the impact my work was having. I loved the work but the military applications and privacy concerns eventually became impossible to ignore." [[src]](https://x.com/pjreddie/status/1230524770350817280)
 
 His withdrawal marked the end of his direct contributions to YOLO, but the framework lives on, thanks to the open-source community and researchers who continue to develop and extend it.
 
-Joseph Redmon not only made YOLO freely available but also showcased his playful and humorous personality by licensing YOLO (or more specifically, its underlying library **Darknet**) under the **"DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE"**. This license epitomized the open-source ethos of YOLO's origins and emphasized complete freedom for users. However, as the YOLO framework evolved through different contributors, subsequent versions adopted a variety of licenses, some of which impose more restrictions—something we’ll explore as we look at the newer YOLO implementations.
+Joseph Redmon not only made YOLO freely available but also showcased his playful and humorous personality by licensing YOLO (or more specifically, its underlying library **Darknet**) under the **"DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE"**. This license epitomized the open-source ethos of YOLO's origins and emphasized complete freedom for users. However, as the YOLO framework evolved through different contributors, subsequent versions adopted a variety of licenses, some of which impose more restrictions.
 
 ---
 
