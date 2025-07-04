@@ -1,42 +1,25 @@
-<!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+---
+layout: base
+---
 
-{% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">Legor's pl<span style="color: red">AI</span>ground</h1>
-        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
-        
-        <!-- Navigation Bar -->
-        <nav>
-          <ul>
-            <li><a href="https://gboeer.github.io">Home</a></li>
-            <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
-            <!-- Other links you might want to add to your navigation bar -->
-          </ul>
-        </nav>
-      </header>
+<div class="intro-header"></div>
 
-      <section>
-        {{ content }}
-      </section>
-
-      <footer>
-		<p><img src="images/mastodon_badge.jpg" alt="mastodon" class="inline"/><small><a rel="me" href="https://det.social/@Gboeer" target="_blank">gboeer@det.social</a></small></p>
-      </footer>
+<main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
+  {% if page.before-content %}
+    <div class="before-content">
+      {% for file in page.before-content %}
+        {% include {{ file }} %}
+      {% endfor %}
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-  </body>
-</html>
+  {% endif %}
+
+  {{ content }}
+
+  {% if page.after-content %}
+    <div class="after-content">
+      {% for file in page.after-content %}
+        {% include {{ file }} %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</main>
