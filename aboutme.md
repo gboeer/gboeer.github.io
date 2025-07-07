@@ -1,5 +1,7 @@
-Website code for: Legor.de
-
+---
+layout: page
+title: About me
+#subtitle: 
 ---
 
 Hey, I'm Gordon — an AI developer with a skeptical mind, a strong coffee habit, and a passion for solving real-world problems using computer vision, machine learning, and deep learning.
@@ -23,5 +25,5 @@ This site is my digital workbench — a place to:
 ---
 
 Got a question, idea, or project in mind?  
-Feel free to reach out using one of my socials.
+Feel free to reach out using one of my socials below.
 
