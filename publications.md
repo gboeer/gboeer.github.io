@@ -41,7 +41,7 @@ tags: [Publications, Research, Science]
 
 <div class="publication-entry">
     <h3>Semantic Segmentation of Marine Species in an Unconstrained Underwater Environment</h3>
-    <p><strong>Authors:</strong> Böer, Gordon Böer and Schramm, Hauke</p>
+    <p><strong>Authors:</strong> Böer, Gordon and Schramm, Hauke</p>
     <p><strong>Journal/Conference:</strong> Robotics, Computer Vision and Intelligent Systems: First International Conference, ROBOVIS 2020, Virtual Event, November 4-6, 2020, and Second International Conference, ROBOVIS 2021, Virtual Event, October 27-28, 2021, Revised Selected Papers</p>
     <p><strong>DOI:</strong> <a href="https://link.springer.com/chapter/10.1007/978-3-031-19650-8_7" target="_blank">https://link.springer.com/chapter/10.1007/978-3-031-19650-8_7</a></p>
     <details>
