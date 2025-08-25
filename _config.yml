@@ -20,6 +20,7 @@ author: Gordon Böer
 ###############################################
 
 navbar-links:
+  Which day is today: "today"
   About Me: "aboutme"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
