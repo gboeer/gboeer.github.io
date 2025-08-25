@@ -20,6 +20,7 @@ author: Gordon Böer
 ###############################################
 
 navbar-links:
+  Publications: "publications"
   Which day is today: "today"
   About Me: "aboutme"
   #Resources:

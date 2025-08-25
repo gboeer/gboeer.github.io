@@ -1,0 +1,78 @@
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+
+<main class="container-md">
+  <div class="row">
+    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      
+      <style>
+        .publications-list {
+          margin: 2em 0;
+        }
+        .publication-entry {
+          border: 1px solid #e0e0e0;
+          border-radius: 8px;
+          padding: 1.5em;
+          margin-bottom: 2em;
+          background: #fafbfc;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+        }
+        .publication-entry h3 {
+          margin-top: 0;
+        }
+        details {
+          margin-top: 1em;
+        }
+        pre {
+          background: #f4f4f4;
+          padding: 1em;
+          border-radius: 4px;
+          overflow-x: auto;
+        }
+      </style>
+      {{ content }}
+      <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Find all BibTeX details blocks
+        document.querySelectorAll('details').forEach(function(details) {
+          var summary = details.querySelector('summary');
+          if (summary && summary.textContent.match(/BibTeX/i)) {
+            var pre = details.querySelector('pre');
+            if (pre && !details.querySelector('.copy-bibtex-btn')) {
+              var btn = document.createElement('button');
+              btn.textContent = 'Copy BibTeX';
+              btn.className = 'copy-bibtex-btn';
+              btn.style.marginTop = '0.5em';
+              btn.onclick = function() {
+                navigator.clipboard.writeText(pre.textContent);
+                btn.textContent = 'Copied!';
+                setTimeout(function(){ btn.textContent = 'Copy BibTeX'; }, 1200);
+              };
+              pre.insertAdjacentElement('afterend', btn);
+            }
+          }
+        });
+      });
+      </script>
+      <style>
+        .copy-bibtex-btn {
+          display: inline-block;
+          font-size: 0.95em;
+          padding: 0.3em 1em;
+          margin-left: 0;
+          background: #e0e0e0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: background 0.2s;
+        }
+        .copy-bibtex-btn:hover {
+          background: #d0d0d0;
+        }
+      </style>
+    </div>
+  </div>
+</main>
