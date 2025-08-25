@@ -2,7 +2,7 @@ Website code for: [legor.de](http://www.legor.de)
 
 ---
 
-Hey, I'm Gordon — an AI developer with a skeptical mind, a strong coffee habit, and a passion for solving real-world problems using computer vision, machine learning, and deep learning.
+Hey, I'm Gordon, an AI developer with a skeptical mind, a strong coffee habit, and a passion for solving real-world problems using computer vision, machine learning, and deep learning.
 
 ## What I Do
 
