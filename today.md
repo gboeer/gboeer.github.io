@@ -40,6 +40,15 @@ function expandAllDetails(open) {
 </script>
 
 <details>
+    <summary><strong>August 27, 2025 :: 🎉✨</strong></summary>
+    <p>
+        Today is Just Because Day!
+        <br><br>
+        It invites you to do something just because, without any particular reason.
+    </p>
+</details>
+
+<details>
     <summary><strong>August 26, 2025 :: 🚀🇩🇪</strong></summary>
     <p>
         Today marks 47 years since the Soyuz 31 mission launched into space, carrying <a href="https://en.wikipedia.org/wiki/Sigmund_J%C3%A4hn" target="_blank">Sigmund Jähn</a>, the first German in space.
