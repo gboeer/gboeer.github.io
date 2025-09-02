@@ -40,6 +40,13 @@ function expandAllDetails(open) {
 </script>
 
 <details>
+    <summary><strong>September 2, 2025 :: ⚔️🕊️</strong></summary>
+    <p>
+        Today is National Beheading Day, a day to remember those who lost their lives through beheading.
+    </p>
+</details>
+
+<details>
     <summary><strong>August 27, 2025 :: 🎉✨</strong></summary>
     <p>
         Today is Just Because Day!
