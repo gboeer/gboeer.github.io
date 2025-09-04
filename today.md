@@ -39,6 +39,18 @@ function expandAllDetails(open) {
 }
 </script>
 
+
+
+<details>
+    <summary><strong>September 4, 2025 :: 🌭🐊</strong></summary>
+    <p>
+        Today is <a href="https://en.wikipedia.org/wiki/Currywurst" target="_blank">Currywurst</a> Day! A celebration of Germany's beloved fast food invention.
+        <br><br>
+        It's also 19 years since <a href="https://en.wikipedia.org/wiki/Steve_Irwin" target="_blank">Steve Irwin</a>, the beloved "Crocodile Hunter," passed away.
+    </p>
+</details>
+
+
 <details>
     <summary><strong>September 2, 2025 :: ⚔️🕊️</strong></summary>
     <p>
