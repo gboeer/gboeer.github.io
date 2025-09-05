@@ -40,6 +40,14 @@ function expandAllDetails(open) {
 </script>
 
 
+<details>
+    <summary><strong>September 5, 2025 :: 🎤👑</strong></summary>
+    <p>
+        Today both <a href="https://en.wikipedia.org/wiki/Freddie_Mercury" target="_blank">Freddie Mercury</a> and <a href="https://en.wikipedia.org/wiki/Louis_XIV" target="_blank">Louis XIV</a> would have had their birthdays.
+
+        Queen and King!
+    </p>
+</details>
 
 <details>
     <summary><strong>September 4, 2025 :: 🌭🐊</strong></summary>
