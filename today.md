@@ -41,6 +41,15 @@ function expandAllDetails(open) {
 
 
 <details>
+    <summary><strong>September 8, 2025 :: 📚👑</strong></summary>
+    <p>
+        Today is <a href="https://en.wikipedia.org/wiki/International_Literacy_Day" target="_blank">International Literacy Day</a>, promoting the importance of literacy as a matter of dignity and human rights.
+        <br><br>
+        It's also the 3rd anniversary of <a href="https://en.wikipedia.org/wiki/Elizabeth_II" target="_blank">Queen Elizabeth II</a>'s passing.
+    </p>
+</details>
+
+<details>
     <summary><strong>September 5, 2025 :: 🎤👑</strong></summary>
     <p>
         Today both <a href="https://en.wikipedia.org/wiki/Freddie_Mercury" target="_blank">Freddie Mercury</a> and <a href="https://en.wikipedia.org/wiki/Louis_XIV" target="_blank">Louis XIV</a> would have had their birthdays.
