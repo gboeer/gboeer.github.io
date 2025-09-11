@@ -125,6 +125,34 @@ tags: [Publications, Research, Science]
 <div class="publications-list">
 
 <div class="publication-entry">
+    <h3>Descriptor: Hydroacoustic and Optical Dataset for Oceanic Research (HODOR)</h3>
+    <p><strong>Authors:</strong> Wilts, Thomas and Böer, Gordon and Winkler, Julian and Cisewski, Boris and Schramm, Hauke and Badri-Hoeher, Sabah</p>
+    <p><strong>Journal/Conference:</strong> IEEE Data Descriptions, vol. 2, pp. 262-270, 2025</p>
+    <p><strong>DOI:</strong> <a href="https://doi.org/10.1109/IEEEDATA.2025.3596913" target="_blank">https://doi.org/10.1109/IEEEDATA.2025.3596913</a></p>
+    <details>
+      <summary><strong>Abstract</strong></summary>
+      <p>
+        In this work, we introduce Hydroacoustic and Optical Dataset for Oceanic Research (HODOR), a publicly accessible dataset developed for advanced analysis of marine life. It is one of the first datasets to provide synchronized sonar and optical stereo camera videos, comprising over 400 h of continuous recordings per sensor. The purpose of HODOR is to support the development of machine learning and deep learning algorithms for marine applications, multimodal sensor fusion techniques, biomass quantification, and long-term ecological studies. The data were collected with a stationary underwater fish observatory (UFO) in the Kiel Fjord, an inlet of the Baltic Sea in northern Germany, and includes an 86-day subset of the recordings from 2021, which was selected based on automated detections using the YOLOv5 model.
+      </p>
+    </details>
+    <details>
+      <summary><strong>BibTeX Citation</strong></summary>
+      <pre>
+@articleICLE{11121653,
+  author={Wilts, Thomas and Böer, Gordon and Winkler, Julian and Cisewski, Boris and Schramm, Hauke and Badri-Hoeher, Sabah},
+  journal={IEEE Data Descriptions}, 
+  title={Descriptor: Hydroacoustic and Optical Dataset for Oceanic Research (HODOR)}, 
+  year={2025},
+  volume={2},
+  number={},
+  pages={262-270},
+  keywords={Sonar;Cameras;Optical sensors;Optical imaging;Fish;Optical recording;Acoustics;Synchronization;Sonar measurements;Baltic Sea;camera;sonar;stereo camera},
+  doi={10.1109/IEEEDATA.2025.3596913}}
+ </pre>
+</details>
+</div>
+
+<div class="publication-entry">
     <h3>Development and operation of a novel non-invasive opto-acoustic underwater fish observatory in Kiel Bight, Southwestern Baltic Sea</h3>
     <p><strong>Authors:</strong> Gröger, Joachim P.  and Cisewski, Boris  and Badri-Hoeher, Sabah  and Böer, Gordon  and Boos, Karin  and Clemmesen, Catriona  and Cojocaru, Ala  and Dauben, Verena  and Hoeher, Peter A.  and Lehmann, Andreas  and Matz, Sebastian  and Mehrtens, Hela  and Mittermayer, Felix  and Renkewitz, Helge  and Schramm, Hauke  and Strickmann, Tobias  and Westphalen, Jonni  and Wilts, Thomas  and Winkler, Julian  and Wolf, Dennis  and Zenk, Oliver</p>
     <p><strong>Journal/Conference:</strong> Frontiers in Marine Science 11 (2024): 1425259</p>
