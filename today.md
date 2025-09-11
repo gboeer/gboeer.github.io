@@ -39,6 +39,13 @@ function expandAllDetails(open) {
 }
 </script>
 
+<details>
+    <summary><strong>September 11, 2025 :: 🕊️🏢</strong></summary>
+    <p>
+        Today marks 24 years since the 9/11 terrorist attacks in the United States. A day to remember the nearly 3,000 people who lost their lives at the World Trade Center, Pentagon, and on Flight 93. A day of remembrance and reflection on how these events shaped the modern world.
+    </p>
+</details>
+
 
 <details>
     <summary><strong>September 10, 2025 :: 💡🔄</strong></summary>
