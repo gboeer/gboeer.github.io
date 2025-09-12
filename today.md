@@ -38,6 +38,12 @@ function expandAllDetails(open) {
   document.querySelectorAll('details').forEach(d => d.open = open);
 }
 </script>
+<details>
+    <summary><strong>September 12, 2025 :: 💻🏴‍☠️</strong></summary>
+    <p>
+        Today marks 44 years since the founding of the <a href="https://en.wikipedia.org/wiki/Chaos_Computer_Club" target="_blank">Chaos Computer Club (CCC)</a> in Berlin, Germany in 1981. Europe's largest association of hackers, the CCC is "a galactic community of life forms, independent of age, sex, race or societal orientation, which strives across borders for freedom of information…".
+    </p>
+</details>
 
 <details>
     <summary><strong>September 11, 2025 :: 🕊️🏢</strong></summary>
