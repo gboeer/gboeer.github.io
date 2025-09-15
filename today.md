@@ -37,6 +37,18 @@ document.addEventListener('DOMContentLoaded', function() {
 function expandAllDetails(open) {
   document.querySelectorAll('details').forEach(d => d.open = open);
 }
+
+</script>
+
+<details>
+    <summary><strong>September 15, 2025 :: 🗳️🌍</strong></summary>
+    <p>
+        Today is <a href="https://en.wikipedia.org/wiki/International_Day_of_Democracy" target="_blank">International Day of Democracy</a>. A day more important than ever in today's times, reminding us of the value of democratic principles and the need to protect them worldwide.
+    </p>
+</details>
+
+<script>
+
 </script>
 <details>
     <summary><strong>September 12, 2025 :: 💻🏴‍☠️</strong></summary>
