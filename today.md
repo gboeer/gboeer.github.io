@@ -55,6 +55,7 @@ function expandAllDetails(open) {
         Yaaaarrr, wish ye crooked-legged plank scrubbers a hearty daylight! Suck that sky gold into yer gnarled nostrils, ye scurvy bilge rats! Today be <a href="https://en.wikipedia.org/wiki/International_Talk_Like_a_Pirate_Day" target="_blank">Talk Like a Pirate Day</a>, aye – so hoist the bloodthirsty sails, bellow into the sea devil's ear an' chase them landlubbers over the plank! Yaaaarrrghhh!
     </p>
 </details>
+<details>
     <summary><strong>September 17, 2025 :: 🐧💻</strong></summary>
     <p>
         Today marks 34 years since <a href="https://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank">Linus Torvalds</a> released the first <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">Linux</a> version (0.0.1) in 1991. This humble beginning would grow into one of the most important operating systems in the world, powering everything from servers to smartphones.
