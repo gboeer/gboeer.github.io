@@ -42,6 +42,14 @@ function expandAllDetails(open) {
 
 
 <details>
+    <summary><strong>October 14, 2025 :: 👩‍💻🔢</strong></summary>
+    <p>
+        Today is <a href="https://en.wikipedia.org/wiki/Ada_Lovelace_Day" target="_blank">Ada Lovelace Day</a>! A celebration of the achievements of women in science, technology, engineering and mathematics (STEM). Named after <a href="https://en.wikipedia.org/wiki/Ada_Lovelace" target="_blank">Ada Lovelace</a>, often considered the world's first computer programmer for her work on Charles Babbage's Analytical Engine.
+    </p>
+</details>
+
+
+<details>
     <summary><strong>October 1, 2025 :: ☕💻</strong></summary>
     <p>
         Today is <a href="https://en.wikipedia.org/wiki/International_Coffee_Day" target="_blank">International Coffee Day</a>! A celebration of one of the most important resources for programmers worldwide. From late-night coding sessions to early morning debugging, coffee has been the faithful companion of developers everywhere.
