@@ -7,6 +7,15 @@
 
 # DRAFT DRAFT DRAFT DRAFT
 
+**TL;DR:**  
+YOLO (You Only Look Once) is a family of real-time object detection models with many versions and forks.  
+- **For commercial/proprietary use:** Choose versions under **Apache 2.0**, **MIT**, or **public domain** licenses (e.g., YOLOX, YOLOV, YOLOV++, original Darknet YOLOv1–v3).  
+- **Avoid AGPL/GPL versions** (YOLOv4, v5, v6, v7, v8, v9, v10, v11, v12) for closed-source or SaaS products unless you’re prepared to open source your code.  
+- **YOLO-NAS** is not open source and requires explicit permission for commercial use.
+- **Ultralytics YOLOv5/v8/v11** are the most popular and user-friendly, but their AGPL license restricts proprietary use.
+ 
+**Bottom line:**  
+Always check the license before using a YOLO version in commercial projects. For maximum freedom, stick to Apache 2.0, MIT, or public domain implementations.
 
 # YOLO: A Journey Through Its Versions
 
@@ -107,7 +116,7 @@ Over the years, YOLOv3 has been re-implemented in various frameworks to make it 
      *(Less permissive, restricts commercial use unless derivative works are also open-sourced)*  
 
 2. **Ultralytics YOLOv3 (2019)**  
-   Ultralytics or more precisely it's founder [:octocat: Glenn Jocher](https://github.com/glenn-jocher), initially released their own PyTorch implementation of YOLOv3. This version started as a fork of Erik Lindernoren's PyTorch implementation but quickly evolved into a more polished and user-friendly framework, offering features like pre-trained models and support for custom training. A mention of Linder-Norén's version this was based on, can still be found in [old commits of the project's readme](https://github.com/ultralytics/yolov3/commit/c3731591aff0e65aeb375a2b0f756bb87a03ccd8#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5R10).
+   Ultralytics or more precisely its founder [:octocat: Glenn Jocher](https://github.com/glenn-jocher), initially released their own PyTorch implementation of YOLOv3. This version started as a fork of Erik Lindernoren's PyTorch implementation but quickly evolved into a more polished and user-friendly framework, offering features like pre-trained models and support for custom training. A mention of Linder-Norén's version this was based on, can still be found in [old commits of the project's readme](https://github.com/ultralytics/yolov3/commit/c3731591aff0e65aeb375a2b0f756bb87a03ccd8#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5R10).
    - **Implementation:** [Ultralytics YOLOv3 GitHub Repository](https://github.com/ultralytics/yolov3)  
    - **License:** [GPL-3.0](https://github.com/ultralytics/yolov3/blob/master/LICENSE)  
      *(Less permissive, restricts commercial use unless derivative works are also open-sourced)*  
@@ -132,7 +141,7 @@ YOLO v4 was developed by [:octocat: Alexey Bochkovskiy](https://github.com/Alexe
 
 ### YOLO v5 (2020)
 
-YOLOv5 was the first original Release of a YOLO version by [Ultralytics](https://www.ultralytics.com/) and has been developed by it's founder [:octocat: Glenn Jocher](https://github.com/glenn-jocher). It became highly popular due to its PyTorch implementation, ease of use, and active maintenance. Ultralytics has since developed several newer YOLO versions and it can be said, that their framework hosts the most popular and best maintained YOLO implementations as of today. Their YOLO versions in general can be used freely with an AGPL-3.0 license, which demands publishing software products which use them as open source as well. However, Ultralytics also offers a paid enterprise license for commercial usage.
+YOLOv5 was the first original release of a YOLO version by [Ultralytics](https://www.ultralytics.com/) and has been developed by it's founder [:octocat: Glenn Jocher](https://github.com/glenn-jocher). It became highly popular due to its PyTorch implementation, ease of use, and active maintenance. Ultralytics has since developed several newer YOLO versions and it can be said, that their framework hosts the most popular and best maintained YOLO implementations as of today. Their YOLO versions in general can be used freely with an AGPL-3.0 license, which demands publishing software products which use them as open source as well. However, Ultralytics also offers a paid enterprise license for commercial usage.
 
 **Highlights:**
 - Implemented in PyTorch, making it more accessible for researchers.
