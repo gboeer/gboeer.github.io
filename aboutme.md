@@ -6,7 +6,7 @@ title: About me
 
 Hey, I'm Gordon, an AI developer from Germany, with a strong coffee habit, and a passion for solving real-world problems using computer vision, machine learning, and deep learning.
 
-## What I Do (tldr)
+## What I Do
 
 - 🧠 **AI & Deep Learning** – I develop robust models for object detection, segmentation, and visual analysis.
 - 🔍 **Computer Vision** – I tackle tough computer vision problems in domains like robotics, underwater vision and ecological informatics.
@@ -40,7 +40,7 @@ After university, I transitioned to [bbe Moldaenke](https://www.bbe-moldaenke.de
 
 After my time in industry, I returned to university work for another 4 years at my former alma mater, continuing my previous projects in ecological informatics. During this period, I focused on developing Python software for the automatic detection and size determination of underwater organisms. I conducted scientific investigations of various methods for detection, segmentation, and tracking of objects, which resulted in several publications at scientific conferences and in professional journals. I again set up and administered multiple GPU servers for conducting machine learning experiments, further expanding my technical infrastructure expertise.
 
-Since 2024, I am working at [IBAK](https://www.ibak.de/en/), a leading manufacturer of sewer inspection and rehabilitation systems with over 75 years of industry expertise, where I develop AI solutions for camera-based sewer inspection systems. I am part of a fresh AI team with great people all around. I've learned many new skills that I didn't touch before, especially in the fields of CI/CD and production systems. Nonetheless, I can bring my previous experience in developing and evaluating computer vision and deep learning models. It's a rare position where I can make industrial-focused research work, which is very rare to have, and I'm glad I have the opportunity.
+Since 2024, I am working at [IBAK](https://www.ibak.de/en/), a leading manufacturer of sewer inspection and rehabilitation systems with over 75 years of industry expertise, where I develop AI solutions for camera-based sewer inspection systems. I am part of a fresh AI team with great people all around. I've learned many new skills that I didn't touch before, especially in the fields of CI/CD and production systems. Nonetheless, I can bring my previous experience in developing and evaluating computer vision and deep learning models. It's a great position where I can make industrial-focused research work, which is very rare to have, and I'm glad I have the opportunity.
 
 ---
 
