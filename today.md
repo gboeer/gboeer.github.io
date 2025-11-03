@@ -42,6 +42,13 @@ function expandAllDetails(open) {
 
 
 <details>
+    <summary><strong>November 3, 2025 :: ⚤ </strong></summary>
+    <p>
+        Today is Men's Day (Männertag) and also Housewife's Day (Tag der Hausfrau)! A celebration of different roles and contributions in society.
+    </p>
+</details>
+
+<details>
     <summary><strong>October 14, 2025 :: 👩‍💻🔢</strong></summary>
     <p>
         Today is <a href="https://en.wikipedia.org/wiki/Ada_Lovelace_Day" target="_blank">Ada Lovelace Day</a>! A celebration of the achievements of women in science, technology, engineering and mathematics (STEM). Named after <a href="https://en.wikipedia.org/wiki/Ada_Lovelace" target="_blank">Ada Lovelace</a>, often considered the world's first computer programmer for her work on Charles Babbage's Analytical Engine.
