@@ -22,11 +22,11 @@ This site is my digital workbench, a place to:
 - Document my **projects**, **side quests**, and **lessons learned**.
 
 ## Bio
-I was born in eastern Germany, Saxony-Anhalt, in 1985 and grew up in a small village. 
+I was born in eastern Germany, Saxony-Anhalt, in 1985, the year in which Marty McFly and Emmet Brown started their journey Back to the Future. I grew up in a small village with about 2000 people living in it, nestled between hills, forrests and fields. 
 
-My journey into tech started early with a C64, and that fascination with computers and technology continues to this day. Like most young people in my area during the 90s, I spent my time watching TV (way too much), experiencing all the shows you'd remember from that era, getting my first real PC, taking it apart, upgrading it as best I could, and playing video games (extensively). I was captivated by the internet, spending countless night hours online and participating in LAN parties. But I also started learning guitar and discovered my love for making music, a passion that remains with me today.
+My journey into tech started early with a C64, and that fascination with computers and technology continues to this day. Like most young people in my area during the 90s, I spent my time watching TV (way too much), experiencing all the shows you'd remember from that era, getting my first real PC, taking it apart, upgrading it as best I could, and playing video games (extensively). I was captivated by the internet, although it took some time since we got more than 56k, spending countless night hours online and participating in LAN parties. But I also started learning guitar and discovered my love for making music, a passion that remains with me today.
 
-In 2005, I started my IT studies at the [University of Applied Sciences](https://www.fh-kiel.de/en/home/) in Kiel, and graduated with honors with a Master's in IT in 2012.
+In 2005, I started my IT studies at the [University of Applied Sciences](https://www.haw-kiel.de/en/home/) in Kiel, and graduated with honors with a Master's in IT in 2012.
 
 After finishing my studies, I spent about 4 years working full-time as a researcher and laboratory engineer at the University of Applied Sciences in Kiel, diving deep into underwater computer vision and marine organism detection. My work resulted in several [publications](publications.md) on the topic and taught me valuable skills in scientific research and in teaching students in the field of programming (C, C++, Python).
 
