@@ -40,6 +40,12 @@ function expandAllDetails(open) {
 
 </script>
 
+<details>
+    <summary><strong>November 19, 2025 :: 🚽🌍</strong></summary>
+    <p>
+        Today is <a href="https://en.wikipedia.org/wiki/World_Toilet_Day" target="_blank">World Toilet Day</a>! A UN observance highlighting the importance of sanitation and hygiene. Happy stooling!
+    </p>
+</details>
 
 <details>
     <summary><strong>November 3, 2025 :: ⚤ </strong></summary>
