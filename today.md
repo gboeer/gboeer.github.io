@@ -41,6 +41,13 @@ function expandAllDetails(open) {
 </script>
 
 <details>
+    <summary><strong>January 14, 2026 :: ☮️🌸</strong></summary>
+    <p>
+        Today in 1967 marks the <a href="https://en.wikipedia.org/wiki/Human_Be-In" target="_blank">Human Be-In</a>, a landmark gathering in San Francisco's Golden Gate Park. Often considered the beginning of the Summer of Love, this event brought together counterculture icons, musicians, and activists in a celebration of peace, love, and community that would define a generation.
+    </p>
+</details>
+
+<details>
     <summary><strong>November 19, 2025 :: 🚽🌍</strong></summary>
     <p>
         Today is <a href="https://en.wikipedia.org/wiki/World_Toilet_Day" target="_blank">World Toilet Day</a>! A UN observance highlighting the importance of sanitation and hygiene. Happy stooling!
