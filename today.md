@@ -41,6 +41,14 @@ function expandAllDetails(open) {
 </script>
 
 <details>
+    <summary><strong>January 15, 2026 :: 📖🌐</strong></summary>
+    <p>
+        Today marks the 25th birthday of <a href="https://en.wikipedia.org/wiki/Wikipedia" target="_blank">Wikipedia</a>! Founded in 2001, Wikipedia has grown into one of the most valuable and widely used references on the internet, democratizing access to knowledge for billions of people worldwide.
+    </p>
+</details>
+
+
+<details>
     <summary><strong>January 14, 2026 :: ☮️🌸</strong></summary>
     <p>
         Today in 1967 marks the <a href="https://en.wikipedia.org/wiki/Human_Be-In" target="_blank">Human Be-In</a>, a landmark gathering in San Francisco's Golden Gate Park. Often considered the beginning of the Summer of Love, this event brought together counterculture icons, musicians, and activists in a celebration of peace, love, and community that would define a generation.
