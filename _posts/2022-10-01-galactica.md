@@ -3,6 +3,7 @@ layout: post
 title: "Galactica"
 tags: [Galactica, LLM, Generative AI]
 description: "Some silly experiments using Galactica, shortly after it was released."
+archived: true
 ---
 
 ## Galactica
