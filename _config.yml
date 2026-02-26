@@ -23,6 +23,7 @@ navbar-links:
   Publications: "publications"
   Which day is today: "today"
   About Me: "aboutme"
+  Archive: "archive"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
