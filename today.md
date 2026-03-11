@@ -41,6 +41,14 @@ function expandAllDetails(open) {
 </script>
 
 <details>
+    <summary><strong>March 11, 2026 :: 🔧💧</strong></summary>
+    <p>
+        Today is World Plumbing Day! Every year on March 11, communities around the world recognize the critical role plumbing plays in our daily lives, from delivering clean water to protecting public health. The <a href="https://www.worldplumbing.org/" target="_blank">World Plumbing Council</a>'s 2026 theme, <em>"Plumbing Connects the World"</em>, highlights how plumbing creates a global network of skilled professionals, pipes, and standards that link people everywhere to health, opportunity, and each other. Every dollar invested in water and sanitation returns more than $4 in economic benefits.
+    </p>
+</details>
+
+
+<details>
     <summary><strong>January 15, 2026 :: 📖🌐</strong></summary>
     <p>
         Today marks the 25th birthday of <a href="https://en.wikipedia.org/wiki/Wikipedia" target="_blank">Wikipedia</a>! Founded in 2001, Wikipedia has grown into one of the most valuable and widely used references on the internet, democratizing access to knowledge for billions of people worldwide.
