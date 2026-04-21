@@ -41,6 +41,14 @@ function expandAllDetails(open) {
 </script>
 
 <details>
+    <summary><strong>April 21, 2026 :: 👑🎂</strong></summary>
+    <p>
+        Today would have been the 100th birthday of <a href="https://en.wikipedia.org/wiki/Elizabeth_II" target="_blank">Queen Elizabeth II</a>, born on April 21, 1926. The longest-reigning British monarch, she served for over 70 years until her passing in September 2022. A centenary for a Queen who witnessed and shaped an extraordinary century of history.
+    </p>
+</details>
+
+
+<details>
     <summary><strong>March 13, 2026 :: 🖤🌂</strong></summary>
     <p>
         Double trouble today! It's <strong>Friday the 13th</strong>, the most infamous date in Western superstition. And if that weren't enough, March 13th is also <strong>National Open an Umbrella Indoors Day</strong>, which dares you to tempt fate with yet another classic bad-luck omen. Two legendary bad-luck symbols colliding on the same day, consider it a stress test for your fate. Umbrella's open. The clock is ticking.
