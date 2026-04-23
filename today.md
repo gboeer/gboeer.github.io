@@ -41,6 +41,16 @@ function expandAllDetails(open) {
 </script>
 
 <details>
+    <summary><strong>April 23, 2026 :: 🍺📚</strong></summary>
+    <p>
+        A double celebration today! It's <a href="https://en.wikipedia.org/wiki/Reinheitsgebot" target="_blank">German Beer Day</a> (<em>Tag des deutschen Bieres</em>), marking the 510th anniversary of the <strong>Reinheitsgebot</strong> — the German Beer Purity Law signed on April 23, 1516, by Duke Wilhelm IV of Bavaria. One of the world's oldest food-safety regulations, it famously limited beer ingredients to water, barley, and hops. Prost!
+        <br><br>
+        It's also <a href="https://en.wikipedia.org/wiki/World_Book_Day" target="_blank">UNESCO World Book Day</a>, chosen because April 23 is the date <strong>William Shakespeare</strong> was born (1564) and died (1616) — and also the date <strong>Miguel de Cervantes</strong> passed away in 1616. A day when two of literature's greatest giants shared the same calendar date, centuries apart.
+    </p>
+</details>
+
+
+<details>
     <summary><strong>April 21, 2026 :: 👑🎂</strong></summary>
     <p>
         Today would have been the 100th birthday of <a href="https://en.wikipedia.org/wiki/Elizabeth_II" target="_blank">Queen Elizabeth II</a>, born on April 21, 1926. The longest-reigning British monarch, she served for over 70 years until her passing in September 2022. A centenary for a Queen who witnessed and shaped an extraordinary century of history.
