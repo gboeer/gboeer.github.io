@@ -22,7 +22,7 @@ author: Gordon Böer
 navbar-links:
   Publications: "publications"
   Which day is today: "today"
-  Podcast Feeds: "https://gboeer.github.io/ardsounds-feeds/"
+  ARDSounds Feeds: "https://gboeer.github.io/ardsounds-feeds/"
   About Me: "aboutme"
   Archive: "archive"
   #Resources:
