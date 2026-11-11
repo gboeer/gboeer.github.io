@@ -1,4 +1,4 @@
-Website code for: [legor.de](http://www.legor.de)
+Website code for: [gboeer.github.io](https://gboeer.github.io)
 
 ---
 
