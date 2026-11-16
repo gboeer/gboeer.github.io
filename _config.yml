@@ -300,6 +300,7 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - drafts/
 
 plugins:
   - jekyll-paginate
